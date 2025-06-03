@@ -8,5 +8,5 @@ interface Genre{
 
 
 
-const useGenres = () => useData<Genre>('/genres')
+const useGenres = () => useData<Genre>('/xgenres')
 export default useGenres;
